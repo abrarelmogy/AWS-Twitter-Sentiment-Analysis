@@ -8,9 +8,9 @@
 This project is to do Sentiment Analysis of tweets from Twitter using AWS services.
 The flow of the project is described below:
 
->We will simulate the Tweets streaming by impleminting a Python code that pushes Tweets from our Tweets.json dataset to Kinesis Firehose.
+>We will simulate the Tweets streaming by implementing a Python code that pushes Tweets from our Tweets.json dataset to Kinesis Firehose.
 
->KDF will receive the Tweets then trigiring a Lambda function with the Tweets data.
+>KDF will receive the Tweets then triggering a Lambda function with the Tweets data.
 
 >Lambda function will send Tweets data to the AWS Comprehend to do Sentiment Analysis.
 
